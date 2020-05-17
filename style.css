@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    background-color: #9a879d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Lato', sans-serif;
+}
+
+.main {
+    background-color: #F7F4F3;
+    border-radius: 16px;
+    width: 624px;
+    margin: 16px;
+    padding: 32px;
+}
+
+.card {
+    display: flex;
+    align-items: flex-start;
+}
+
+.card__avatar {
+    width: 148px;
+    height: 148px;
+    border-radius: 50%;
+    margin-right: 32px;
+}
+
+.card__header {
+    margin-bottom: 24px;
+}
+
+
+.card__name {
+    font-size: 36px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.card__description {
+    font-style: 16px;
+    line-height: 22px;
+    margin: 0;
+}
+
+.card__description--footer {
+    margin-top: 22px;
+}
+
+.card__job-title {
+    font-size: 18px;
+    color: #545454;
+    margin: 0;
+    font-style: italic;
+}
+
+.social {
+    font-size: 18px;
+    margin: 6px;
+    color: #545454;
+    transition: .3s;
+}
+
+.social:hover {
+    font-size: 18px;
+    margin: 6px;
+    color: #cf78c8
+}

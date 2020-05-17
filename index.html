@@ -7,6 +7,8 @@
     <title>Bio</title>
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -14,18 +16,22 @@
 <body>
     <main class="main">
         <article class="card">
-            <img class="card__photo" src="./avatar.jpg" alt="Avatar photo.">
-            <header class="card__header">
-                <h1 class="card__name">Adrian Zinko</h1>
-                <p class="card__position">Student IT</p>
-            </header>
-            <p class="card__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam sequi,
-                deleniti
-                voluptate quos praesentium iure debitis iste. Odit alias impedit expedita. Molestias ab id sit in
-                veritatis
-                quibusdam voluptatem sunt?</p>
-            <p class="card__description">W sieci: <a href="">Facebook,</a> <a href="">Github,</a> <a
-                    href="">Instagram</a></p>
+            <img class="card__avatar" src="./avatar.jpg" alt="Avatar photo.">
+            <div>
+                <header class="card__header">
+                    <h1 class="card__name">Adrian Zinko</h1>
+                    <p class="card__job-title">Student IT</p>
+                </header>
+                <p class="card__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam sequi,
+                    deleniti
+                    voluptate quos praesentium iure debitis iste. Odit alias impedit expedita. Molestias ab id sit in
+                    veritatis
+                    quibusdam voluptatem sunt?</p>
+                <p class="card__description card__description--footer">W sieci: <a href="" class="social"><i
+                            class="fab fa-facebook-square"></i></a> <a href="" class="social"><i
+                            class="fab fa-github-square"></i></a> <a href="" class="social"><i
+                            class="fab fa-instagram-square"></i></a></p>
+            </div>
         </article>
     </main>
 </body>
