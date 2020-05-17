@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 
 <head>
     <meta charset="UTF-8">
@@ -20,13 +20,15 @@
             <div>
                 <header class="card__header">
                     <h1 class="card__name">Adrian Zinko</h1>
-                    <p class="card__job-title">Student IT</p>
+                    <p class="card__job-title"><i>Student IT</i> 👨‍🎓</p>
                 </header>
-                <p class="card__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam sequi,
-                    deleniti
-                    voluptate quos praesentium iure debitis iste. Odit alias impedit expedita. Molestias ab id sit in
-                    veritatis
-                    quibusdam voluptatem sunt?</p>
+                <p class="card__description"> Ciekawość wprowadziła mnie w świat programowania. Zostanę tu na dłużej. Praktycznego wykorzystania uczonych zagadnień szukam w życiu codziennym. Główne obszary zainteresowania na dzień <span id="date" class="date"></span> : 
+                    <ul>
+                        <li>po stronie frontendu: <span class="special">JavaScript, React, TypeScript</span></li>
+                        <br>
+                        <li>świat mikrokontrolerów i sieci: <span class="special">Arduino, RaspberryPi, CCNA</span></li>
+                    </ul>    
+                    </p>
                 <p class="card__description card__description--footer">W sieci: <a href="" class="social"><i
                             class="fab fa-facebook-square"></i></a> <a href="" class="social"><i
                             class="fab fa-github-square"></i></a> <a href="" class="social"><i
@@ -36,4 +38,8 @@
     </main>
 </body>
 
+<script>
+    document.getElementById('date').innerHTML = new Date().toDateString();
+</script>
 </html>
+
