@@ -73,6 +73,12 @@ ul {
     list-style: none;
 }
 
+li:before {
+    content: '\1F449';
+    margin-left: -20px;
+    margin-right: 10px;
+    }
+
 .special {
     font-weight: bolder;
     color: #A5D8FF;
@@ -95,6 +101,10 @@ ul {
     .card {
         display: flex;
         align-items: flex-start;
+    }
+
+    .main:hover {
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     }
     
     .card__avatar {
