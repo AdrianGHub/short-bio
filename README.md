@@ -1,4 +1,4 @@
-# Checkout my bio [Short Bio Page](https://github.com/adrianghub/short-bio) 😊🖐 
+# Checkout my [Short Bio](adrianghub.github.io/short-bio) 😊🖐 
 
 ## Brief 
 
