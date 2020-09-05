@@ -23,4 +23,4 @@ have.
 
 PS 😉  
 
-In my spare time I'm also in love with powerlifting 🏋️‍♀️ ukulele rythms 🎸 and cooking🥧 
+In my spare time I'm also in love with powerlifting 🏋️‍♀️ ukulele rhythms 🎸 and cooking🥧 
